@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+body{
+    background-color: #5e99ff;
+}
+h1{
+        font-family: "Zalando Sans Expanded", sans-serif;
+
+}
+header{
+    border-bottom: solid 6px #082b71;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
+}
