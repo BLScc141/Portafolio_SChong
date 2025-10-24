@@ -117,18 +117,44 @@
                     <input type="text" value="" placeholder="Nombre Completo" required>
                     
                 </div>
-                <div class ="campos">
-                    <label for="email">Correo electronico:</label>
-                    <input type="email" value="" placeholder="ejemplo@gmail.com" required>
+                <div class="campos">
+                    <label>Motivo de contacto</label>
+                    <select>
+                        <option>Cotizacion</option>
+                        <option>Practicas Profesionales</option>
+                        <option>Otro</option>
+                    </select>
                 </div>
                 <div class="campos">
-                    <label>Enviar mensaje: </label>
-                    <textarea></textarea>
+                    <label>Correo electrónico</label>
+                    <input type="email" value="" placeholder="Tu correo electrónico" required>
                 </div>
                 <div class="campos">
-                    <!--<input type="button" value="Enviar">-->
+                    <label>Mensaje</label>
+                    <textarea placeholder="Escribe tu mensaje aquí" required></textarea>
+                </div>
+                <div>
+                    <label>Modo de contacto</label>
+                    <input type="checkbox" name="">
+                </div>
+                <div class="campos">
+                    <label>¿Es cliente?</label>
+                    <input type="radio" name="cliente" class="opciones"> Si
+                    <input type="radio" name="cliente" class="opciones"> No
+                </div>
+                <div class="campos">
+                    <label>Número de colaboradores</label>
+                    <input type="number" />
+                </div>
+                <div>
+                    <label>Enviar requerimientos</label>
+                    <input type="file" name="foto">
+                </div>
+                <div class="campos">
+                    <!-- con input tambien se puede-->
                     <button type="submit">Enviar</button>
                 </div>
+                <div class="campos"></div>
             </form>
         </section>
     </main>

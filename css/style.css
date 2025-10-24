@@ -109,7 +109,7 @@ progress{
     clear:both;
     margin: 20px 0px;
 }
-#contacto button{
+#contacto .opciones{
     background-color: #3265ff;
     color: white;
     font-size: 20px;
@@ -117,4 +117,16 @@ progress{
     border-radius: 10px;
     border: none;
     width: 200px;
+}
+#contacto button{
+    background-color: #99c5ff;
+    color: white;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#contacto button:hover{
+    background-color: #4070ff;
 }
